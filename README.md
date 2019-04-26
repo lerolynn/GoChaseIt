@@ -10,9 +10,12 @@ THis project consists of 2 ROS packages located inside the ```catkin_ws``` works
 # To View Project
 Prerequisites: ROS and Gazebo installed on Linux workspace
 
-1. Clone the repository into an empty folder ```catkin_ws```
-2. Initialise the catkin workspace
+1. Make an empty ```catkin_ws``` directory
+2. Clone the repository into the empty ```catkin_ws``` directory
+3. Initialise the catkin workspace
 ```
+$ mkdir catkin_ws
+$ git clone https://github.com/lerolynn/GoChaseIt.git
 $ cd catkin_ws/src
 $ catkin_init_workspace
 ```
